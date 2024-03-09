@@ -1,8 +1,8 @@
 {
-  "homepage": "http://TheAJ25.github.io/VoiceNote",
+  "homepage": "",
   "name": "my-app",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@babel/plugin-transform-private-property-in-object": "^7.23.4",
@@ -30,9 +30,11 @@
   },
   "browserslist": {
     "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
+      "chrome >= 67",
+      "edge >= 79",
+      "firefox >= 68",
+      "opera >= 54",
+      "safari >= 14" 
     ],
     "development": [
       "last 1 chrome version",
