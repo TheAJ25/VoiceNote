@@ -59,7 +59,7 @@ function App() {
         <div className="box">
         <h2 className="inside">Current Note</h2>
           <div className="x1">
-          {isListening ? <span className="span">🎙️</span> : <span className="span">🔴</span>}
+          {isListening ? <span className="span">🎤</span> : <span className="span">🔴</span>}
           <div className="buttons">
           <button onClick={() => setIsListening((prevState) => !prevState)}>
             Start/Stop
